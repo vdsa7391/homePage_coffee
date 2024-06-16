@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+
+:root {
+  --main-color: #deab5f;
+  --primary-color: #312e2e;
+}
+
+/* Utility Styles */
+button {
+  padding: 10px 30px;
+  background: var(--main-color);
+  border: none;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #100e0f;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-family: sans-serif;
+  padding-top: 15px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+  }
+  
+  li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+  
+  li a:hover {
+    border-bottom: 2px solid #deab5f;
+   
+  }
+
+  .header {
+    background: url("images/pexels-nao-triponez-129207.jpg"), linear-gradient(orange, yellow);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Playfair Display SC", serif;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    text-align: center;
+  }
+
+  .main-headings {
+    position: absolute;
+    top: 5rem;
+    font-size: 4em;
+    word-spacing: 10px;
+  }
+
+  .primary-heading {
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4em;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+  }
+  
+  .main-btn {
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: transparent;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+    transform: translateY(60px);
+  }
+
+
+  #our-story {
+    margin-top: 15%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .img {
+    width: 400px;
+    height: 400px;
+    background: url(Images/pexels-chitokan-2183027-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    
+  }
+  
+  .title-style {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .title {
+    font-family: "Playfair Display SC", serif;
+    font-size: 4rem;
+    color: #fff;
+    transform: translateX(-100px);
+    
+  }
+ 
+  .line {
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform: translateX(-120px);
+    
+  }
+  
+  .section-content p {
+    max-width: 500px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px 0;
+
+  }
+
+  .coffee-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+  }
+  
+  .content-section p {
+    max-width: 500px;
+  }
+  
+  .img-container {
+    width: 500px;
+    height: 400px;
+    
+  }
+  
+  .img-2 {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .title-two {
+    font-size: 3rem;
+    color: #fff;
+    font-family: "Playfair Display SC", serif;
+    font-weight: normal;
+  }
+  
+  .content-section p {
+    color: white;
+    margin-top: 20px;
+    font-family: sans-serif;
+  }
+
+  .product-container{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+  }
+
+  .items li {
+    display: block;
+    font-size:large;
+    padding: 15px;
+    text-align: start;
+
+  }
+
+  .items h3 {
+    font-size: 40px;
+    padding-bottom: 40px;
+
+  }
+
+  .items button{
+    margin-top: 35px;
+    
+  }
+
+  .items{
+    border: 2px solid var(--main-color);
+    padding: 20px 50px;
+    max-width:400px ;
+  }
+
+  .title3{
+    
+    transform: translateX(175px);
+
+
+  }
+
+  .products{
+    margin-top: 14em;
+  }
+
+  .coffe-image{
+    height: 100px;
+    width: 100px;
+    transform: translateY(-85px);
+    margin: 20px;
+  }
+
+  footer{
+    margin-top: 10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    text-align: center;
+  }
+
+  .contact-info{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 25% 25% 25%;
+    margin-top:6% ;
+    margin-bottom: 5%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+
+
+  }
+
+  .divider{
+    height: 3px;
+    width: 500px;
+    background: var(--main-color);
+    margin: 1em auto 1em auto ;
+    
+
+  }
+
+  .infos{
+    padding: 45px;
+    line-height: 24px;
+
+  }
+
+  .infos h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+  }
+
+  .highlight{
+    color: var(--main-color);
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+  #copyright{
+    padding-top: 10px;
+  }
+
+
+  @media  only screen and (max-width: 800px) {
+
+    .main-headings, .primary-heading{
+        font-size: 3em;
+    }
+
+    .img-container{
+        height: 300px;
+        width: 350px;
+        text-align: center;
+        
+    }
+
+    .img {
+        height: 250px;
+        width: 250px;
+        transform: translateX(45px);
+        
+    }
+
+    .section-content{
+        text-align: center;
+        
+        
+    }
+
+    .title{
+        margin-left: 100px;
+    }
+
+    .content-section{
+        text-align: center;
+        margin: auto auto;
+        padding: 45px;
+    }
+
+    .img-2{
+        max-height: 250px;
+        max-width: 300px;
+        padding-left: 40px;
+    }
+
+    .product-container{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title3{
+        transform: translateX(-25px);
+    }
+
+    .coffe-image{
+        transform: translateY(8px);
+    }
+
+    footer{
+        transform: translateY(10);
+        
+    }
+
+    .products{
+        transform: translateY(-50px);
+    }
+    
+    .items{
+        margin-top: 24px;
+    }
+
+
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        margin-top: 24px;
+    }
+       
+    
+  }
+
+
+
+
